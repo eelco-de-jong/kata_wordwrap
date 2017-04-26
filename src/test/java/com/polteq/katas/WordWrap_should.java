@@ -40,4 +40,9 @@ public class WordWrap_should {
     public void return_split_sentence() throws Exception {
         assertThat(wordWrap.wrap("tester", 3), is("tes\nter"));
     }
+
+    @Test
+    public void return_split_sentence_on_space() throws Exception {
+        assertThat(wordWrap.wrap("testers test", 9), is("tester\ntest"));
+    }
 }
