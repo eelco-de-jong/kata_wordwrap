@@ -9,6 +9,7 @@ public class WordWrap {
         if (sentence.length() > column) {
             String wrap = sentence.substring(0, column);
             sentence = sentence.substring(wrap.length());
+            wrap = wrap.trim();
             String wrappedSentence = wrap + "\n" + sentence;
             return wrappedSentence;
         } else {
