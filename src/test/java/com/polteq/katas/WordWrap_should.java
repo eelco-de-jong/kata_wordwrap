@@ -52,7 +52,6 @@ public class WordWrap_should {
         assertThat(wordWrap.wrap("testers test", 11),is ("testers\ntest"));
     }
 
-    @Ignore
     @Test
     public void return_split_sentence_on_multiple_positions() throws Exception {
         assertThat(wordWrap.wrap("testers test thingsthatneedtesting", 8), is("testers\ntest\nthingst\nhatneed\ntesting"));

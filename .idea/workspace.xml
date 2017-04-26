@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e386daff-5bcc-4998-af08-cd3066fa32eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java" afterPath="$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" afterPath="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordWrap_should.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordWrap_should.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordWrap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordWrap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            <state relative-caret-position="308">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -62,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" />
       </list>
     </option>
   </component>
@@ -413,12 +414,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordWrap_should - 2017.04.26 at 20h 48m 02s.xml">
-      <configuration name="WordWrap_should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordWrap_should - 2017.04.26 at 20h 52m 42s.xml">
-      <configuration name="WordWrap_should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordWrap_should - 2017.04.26 at 20h 57m 50s.xml">
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
@@ -441,6 +436,12 @@
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordWrap_should - 2017.04.26 at 21h 11m 51s.xml">
+      <configuration name="WordWrap_should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordWrap_should - 2017.04.26 at 21h 13m 14s.xml">
+      <configuration name="WordWrap_should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordWrap_should - 2017.04.26 at 21h 13m 48s.xml">
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -490,21 +491,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="282">
+          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
