@@ -1,5 +1,6 @@
 package com.polteq.katas;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
@@ -18,14 +19,15 @@ import static org.junit.Assert.assertThat;
 
 public class WordWrap_should {
 
-    @Test
-    public void create_class() throws Exception {
-        WordWrap wordWrap = new WordWrap();
+    private WordWrap wordWrap;
+
+    @Before
+    public void setUp() throws Exception {
+        wordWrap = new WordWrap();
     }
 
     @Test
     public void return_word() throws Exception {
-        WordWrap wordWrap = new WordWrap();
         assertThat(wordWrap.wrap("tester"), is("tester"));
     }
 }
