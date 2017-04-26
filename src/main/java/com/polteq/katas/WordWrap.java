@@ -8,15 +8,20 @@ public class WordWrap {
     public String wrap(String sentence, int column) {
         if (sentence.length() > column) {
             String wrap = getWrap(sentence, column);
-            if(wrap.contains(" ")) {
-                wrap = wrap.substring(0, wrap.lastIndexOf(" "));
-            }
+            wrap = wrapOnSpace(wrap);
             sentence = getRestSentence(sentence, wrap);
             String wrappedSentence = wrap + "\n" + sentence;
             return wrappedSentence;
         } else {
             return sentence;
         }
+    }
+
+    private String wrapOnSpace(String wrap) {
+        if(wrap.contains(" ")) {
+            wrap = wrap.substring(0, wrap.lastIndexOf(" "));
+        }
+        return wrap;
     }
 
     private String getRestSentence(String sentence, String wrap) {
