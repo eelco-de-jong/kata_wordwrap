@@ -1,5 +1,7 @@
 package com.polteq.katas;
 
+import org.junit.Test;
+
 /**
  * Created by jongd on 26-4-2017.
  *
@@ -12,4 +14,9 @@ package com.polteq.katas;
  */
 
 public class WordWrap_should {
+
+    @Test
+    public void create_class() throws Exception {
+        WordWrap wordWrap = new WordWrap();
+    }
 }
