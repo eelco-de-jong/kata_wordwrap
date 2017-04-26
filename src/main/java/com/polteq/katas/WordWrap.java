@@ -5,7 +5,7 @@ package com.polteq.katas;
  */
 public class WordWrap {
 
-    public String wrap(String tester) {
+    public String wrap(String sentence, int column) {
         return "tester";
     }
 }

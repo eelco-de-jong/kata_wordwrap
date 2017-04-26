@@ -31,4 +31,8 @@ public class WordWrap_should {
         assertThat(wordWrap.wrap("tester", 7), is("tester"));
     }
 
+    @Test
+    public void return_another_word() throws Exception {
+        assertThat(wordWrap.wrap("testers", 8), is("testers"));
+    }
 }
