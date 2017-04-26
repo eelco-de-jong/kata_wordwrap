@@ -2,6 +2,9 @@ package com.polteq.katas;
 
 import org.junit.Test;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 /**
  * Created by jongd on 26-4-2017.
  *
@@ -18,5 +21,11 @@ public class WordWrap_should {
     @Test
     public void create_class() throws Exception {
         WordWrap wordWrap = new WordWrap();
+    }
+
+    @Test
+    public void return_word() throws Exception {
+        WordWrap wordWrap = new WordWrap();
+        assertThat(wordWrap.wrap("tester"), is("tester"));
     }
 }
