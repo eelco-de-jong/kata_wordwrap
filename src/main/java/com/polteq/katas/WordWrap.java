@@ -7,7 +7,10 @@ public class WordWrap {
 
     public String wrap(String sentence, int column) {
         if (sentence.length() > column) {
-            return "tes\nter";
+            String wrap = sentence.substring(0, column);
+            sentence = sentence.substring(wrap.length());
+            String wrappedSentence = wrap + "\n" + sentence;
+            return wrappedSentence;
         } else {
             return sentence;
         }
