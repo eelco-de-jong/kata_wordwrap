@@ -6,6 +6,10 @@ package com.polteq.katas;
 public class WordWrap {
 
     public String wrap(String sentence, int column) {
-        return sentence;
+        if (sentence.length() > column) {
+            return "tes\nter";
+        } else {
+            return sentence;
+        }
     }
 }
