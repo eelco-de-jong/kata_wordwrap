@@ -9,7 +9,7 @@ public class WordWrap {
         if (sentence.length() > column) {
             String wrap = getWrap(sentence, column);
             sentence = getRestSentence(sentence, wrap);
-            String wrappedSentence = wrap + "\n" + sentence;
+            String wrappedSentence = wrap + sentence;
             return wrappedSentence;
         } else {
             return sentence;
@@ -24,7 +24,7 @@ public class WordWrap {
     }
 
     private String getRestSentence(String sentence, String wrap) {
-        sentence = sentence.substring(wrap.length());
+        sentence = sentence.substring(wrap.length() - 1);
         sentence = sentence.trim();
         return sentence;
     }
@@ -33,6 +33,6 @@ public class WordWrap {
         String wrap = sentence.substring(0, column);
         wrap = wrap.trim();
         wrap = wrapOnSpace(wrap);
-        return wrap;
+        return wrap + "\n";
     }
 }

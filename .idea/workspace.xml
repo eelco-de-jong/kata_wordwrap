@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e386daff-5bcc-4998-af08-cd3066fa32eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java" afterPath="$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" afterPath="$PROJECT_DIR$/src/test/java/com/polteq/katas/WordWrap_should.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="WordWrap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="544">
+              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -415,15 +413,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordWrap_should - 2017.04.26 at 20h 43m 46s.xml">
-      <configuration name="WordWrap_should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordWrap_should - 2017.04.26 at 20h 47m 27s.xml">
-      <configuration name="WordWrap_should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordWrap_should - 2017.04.26 at 20h 47m 48s.xml">
-      <configuration name="WordWrap_should" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordWrap_should - 2017.04.26 at 20h 48m 02s.xml">
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
@@ -443,6 +432,15 @@
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordWrap_should - 2017.04.26 at 21h 10m 29s.xml">
+      <configuration name="WordWrap_should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordWrap_should - 2017.04.26 at 21h 11m 03s.xml">
+      <configuration name="WordWrap_should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordWrap_should - 2017.04.26 at 21h 11m 25s.xml">
+      <configuration name="WordWrap_should" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordWrap_should - 2017.04.26 at 21h 11m 51s.xml">
       <configuration name="WordWrap_should" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -504,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/polteq/katas/WordWrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="544">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding />
         </state>
       </provider>
