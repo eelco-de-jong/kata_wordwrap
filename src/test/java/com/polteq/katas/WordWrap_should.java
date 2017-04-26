@@ -35,4 +35,9 @@ public class WordWrap_should {
     public void return_another_word() throws Exception {
         assertThat(wordWrap.wrap("testers", 8), is("testers"));
     }
+
+    @Test
+    public void return_split_sentence() throws Exception {
+        assertThat(wordWrap.wrap("tester", 4), is("tes\nter"));
+    }
 }
