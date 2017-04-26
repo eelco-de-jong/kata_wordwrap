@@ -42,7 +42,7 @@ public class WordWrap_should {
     }
 
     @Test
-    public void return_split_sentence_on_space() throws Exception {
+    public void return_split_sentence_remove_space() throws Exception {
         assertThat(wordWrap.wrap("testers test", 8), is("testers\ntest"));
     }
 }
